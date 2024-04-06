@@ -14,6 +14,7 @@
  *= require_self
  */
 
+/* ndash */
 cite:before {
   content: '\2013';
 }
