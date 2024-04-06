@@ -1,0 +1,19 @@
+<h1 class="ms-3 mt-3">Stupid Coaching</h1>
+
+<div class="m-3 mt-4">
+  <div class="callout">
+    <blockquote>
+      <p><%= @question %></p>
+      <cite>You</cite>
+    </blockquote>
+  </div>
+
+  <div class="callout yellow mt-4">
+    <blockquote>
+      <p class="reply"><%= @reply %></p>
+      <cite>Your coach</cite>
+    </blockquote>
+  </div>
+
+  <p><%= link_to "Ask a new question", ask_path %></p>
+</div>

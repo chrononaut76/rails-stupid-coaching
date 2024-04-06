@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+cite:before {
+  content: '\2013';
+}
+
+.callout {
+  font-size: 18px;
+  border-left: 6px solid lightgrey;
+  padding: 4px 0 0 12px;
+}
+
+.reply {
+  font-weight: 600;
+}
+
+.yellow {
+  background-color: lightyellow;
+}
